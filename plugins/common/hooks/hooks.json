@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo 'Breezeware common plugin loaded. Available: /breezeware-common:code-review, /breezeware-common:git-workflow, /breezeware-common:security-scan'"
+            "command": "echo 'Breezeware common plugin loaded. Available: /breezeware-common:breezeware-code-review, /breezeware-common:breezeware-git-workflow, /breezeware-common:breezeware-security-scan'"
           }
         ]
       }

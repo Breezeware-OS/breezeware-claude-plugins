@@ -45,17 +45,17 @@
 <!-- BREEZEWARE-SKILLS-START -->
 ## Available Skills
 The following custom skills are available in `.claude/skills/`:
-- `/code-review` — General code review (mixed-stack or unclear)
-- `/code-review-frontend` — Frontend code review (React, JSX, Redux, Axios)
-- `/code-review-backend` — Backend code review (Spring Boot, Java, JPA, Flyway)
-- `/code-review-mobile` — Mobile code review (React Native, iOS, Android)
-- `/code-review-automation` — Automation test code review (Playwright, Page Objects, Cucumber)
-- `/code-review-cucumber` — Cucumber feature file review (Gherkin, BDD, step quality)
-- `/reactjs-frontend` — React.js frontend development (Vite, Axios, shadcn/ui, Redux)
-- `/spring-boot-backend` — Spring Boot backend development (Java 21, Maven, JPA, Flyway)
-- `/react-native` — React Native mobile development (bare CLI, JavaScript)
-- `/playwright-automation` — Java Playwright automation testing (JUnit 5, Cucumber, Allure)
-- `/cucumber-feature` — Write Cucumber Gherkin feature files (BDD, declarative steps, tagging)
-- `/git-workflow` — PR descriptions, changelogs, release notes
-- `/security-scan` — Security-focused code review (OWASP Top 10)
+- `/breezeware-code-review` — General code review (mixed-stack or unclear)
+- `/breezeware-code-review-frontend` — Frontend code review (React, JSX, Redux, Axios)
+- `/breezeware-code-review-backend` — Backend code review (Spring Boot, Java, JPA, Flyway)
+- `/breezeware-code-review-mobile` — Mobile code review (React Native, iOS, Android)
+- `/breezeware-code-review-automation` — Automation test code review (Playwright, Page Objects, Cucumber)
+- `/breezeware-code-review-cucumber` — Cucumber feature file review (Gherkin, BDD, step quality)
+- `/breezeware-reactjs-frontend` — React.js frontend development (Vite, Axios, shadcn/ui, Redux)
+- `/breezeware-spring-boot-backend` — Spring Boot backend development (Java 21, Maven, JPA, Flyway)
+- `/breezeware-react-native` — React Native mobile development (bare CLI, JavaScript)
+- `/breezeware-playwright-automation` — Java Playwright automation testing (JUnit 5, Cucumber, Allure)
+- `/breezeware-cucumber-feature` — Write Cucumber Gherkin feature files (BDD, declarative steps, tagging)
+- `/breezeware-git-workflow` — PR descriptions, changelogs, release notes
+- `/breezeware-security-scan` — Security-focused code review (OWASP Top 10)
 <!-- BREEZEWARE-SKILLS-END -->
