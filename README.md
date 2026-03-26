@@ -2,6 +2,51 @@
 
 True Claude Code plugins for Breezeware development — auto-detecting, hook-powered, with skills and code review.
 
+## Example Use Cases
+
+### Spring Boot Backend
+```
+> /spring-boot-backend Create a REST API for user management with CRUD operations
+> /code-review-backend Review my UserService.java for bugs and security issues
+```
+Claude generates a complete Spring Boot module — entity, DTO, repository, service, controller, Flyway migration — following Breezeware's Checkstyle rules, constructor injection, and REST conventions.
+
+### React Frontend
+```
+> /reactjs-frontend Build a dashboard page with a data table, search bar, and pagination
+> /code-review-frontend Review my Dashboard.jsx for performance and accessibility
+```
+Claude scaffolds responsive React components using shadcn/ui, Redux Toolkit, Axios services, and Tailwind CSS — matching Breezeware's component patterns.
+
+### React Native Mobile
+```
+> /react-native Create a login screen with form validation and biometric auth
+> /code-review-mobile Review my HomeScreen for performance and platform issues
+```
+Claude builds bare React Native screens with React Navigation, Redux state management, and platform-specific handling.
+
+### Playwright Test Automation
+```
+> /playwright-automation Create E2E tests for the login flow with Page Object Model
+> /code-review-automation Review my LoginPage.java page object for reliability
+```
+Claude generates Java Playwright tests with JUnit 5, Cucumber BDD integration, Allure reporting, and stable locator strategies.
+
+### Cucumber BDD
+```
+> /cucumber-feature Write feature files for the checkout flow
+> /code-review-cucumber Review my checkout.feature for BDD best practices
+```
+Claude writes declarative Gherkin scenarios with proper tagging strategy, data tables, scenario outlines, and business-readable language.
+
+### Common (All Projects)
+```
+> /code-review Review this pull request for bugs, security, and style
+> /git-workflow Generate a PR description for my current branch
+> /security-scan Scan this module for OWASP Top 10 vulnerabilities
+```
+General code review, PR/changelog generation, and security auditing — works across any stack.
+
 ## Plugins
 
 | Plugin | Auto-Detects | What It Does |
