@@ -1,3 +1,10 @@
+<h1 align="center"> <a href="https://github.com/Breezeware-OS/"><img src="https://github.com/user-attachments/assets/07f2efc7-111f-4dee-b775-98fa8743e2c6" alt="Dynamo" width="400" align="center"></a>
+</h1>
+
+<h4 align="center">A powerful platform designed to supercharge business app development and streamline internal tool creation. Manage, organize, and innovate—all in one place</h4>
+
+</div>
+
 # Breezeware Claude Plugins
 
 True Claude Code plugins for Breezeware development — auto-detecting, hook-powered, with skills and code review.
