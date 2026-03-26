@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "packs": {
+    "common": {
+      "description": "Always-active skills for all projects",
+      "always_active": true,
+      "skills": {
+        "code-review": "General code review (mixed-stack or unclear)",
+        "git-workflow": "PR descriptions, changelogs, release notes",
+        "security-scan": "Security-focused code review (OWASP Top 10)"
+      }
+    },
+    "spring-boot": {
+      "description": "Spring Boot backend development",
+      "skills": {
+        "spring-boot-backend": "Spring Boot backend development (Java 21, Maven, JPA, Flyway)",
+        "code-review-backend": "Backend code review (Spring Boot, Java, JPA, Flyway)"
+      },
+      "detect": [
+        { "type": "file_exists", "pattern": "pom.xml" },
+        { "type": "dir_exists", "pattern": "src/main/java" },
+        { "type": "file_exists", "pattern": "build.gradle", "content_match": "spring-boot" }
+      ]
+    },
+    "react": {
+      "description": "React.js frontend development",
+      "skills": {
+        "reactjs-frontend": "React.js frontend development (Vite, Axios, shadcn/ui, Redux)",
+        "code-review-frontend": "Frontend code review (React, JSX, Redux, Axios)"
+      },
+      "detect": [
+        { "type": "package_json_dep", "name": "react", "exclude_if_dep": "react-native" }
+      ]
+    },
+    "react-native": {
+      "description": "React Native mobile development",
+      "skills": {
+        "react-native": "React Native mobile development (bare CLI, JavaScript)",
+        "code-review-mobile": "Mobile code review (React Native, iOS, Android)"
+      },
+      "detect": [
+        { "type": "package_json_dep", "name": "react-native" }
+      ]
+    },
+    "playwright": {
+      "description": "Playwright test automation",
+      "skills": {
+        "playwright-automation": "Java Playwright automation testing (JUnit 5, Cucumber, Allure)",
+        "code-review-automation": "Automation test code review (Playwright, Page Objects, Cucumber)"
+      },
+      "detect": [
+        { "type": "package_json_dep", "name": "@playwright/test" },
+        { "type": "file_exists", "pattern": "pom.xml", "content_match": "playwright" }
+      ]
+    },
+    "cucumber": {
+      "description": "Cucumber BDD feature files",
+      "skills": {
+        "cucumber-feature": "Write Cucumber Gherkin feature files (BDD, declarative steps, tagging)",
+        "code-review-cucumber": "Cucumber feature file review (Gherkin, BDD, step quality)"
+      },
+      "detect": [
+        { "type": "glob_exists", "pattern": "*.feature", "max_depth": 4 },
+        { "type": "package_json_dep", "name": "@cucumber/cucumber" },
+        { "type": "file_exists", "pattern": "pom.xml", "content_match": "cucumber" }
+      ]
+    }
+  }
+}

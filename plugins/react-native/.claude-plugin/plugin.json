@@ -1,0 +1,8 @@
+{
+  "name": "breezeware-react-native",
+  "description": "React Native mobile development plugin — bare CLI, JavaScript, React Navigation, Redux Toolkit, StyleSheet with platform-specific checks and code review.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Breezeware"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "breezeware-common",
+  "description": "Core Breezeware skills — general code review, git workflow, and security scanning. Always active for all projects.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Breezeware"
+  }
+}

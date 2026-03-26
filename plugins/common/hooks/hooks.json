@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Breezeware common plugin loaded. Available: /breezeware-common:code-review, /breezeware-common:git-workflow, /breezeware-common:security-scan'"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/safety-check.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

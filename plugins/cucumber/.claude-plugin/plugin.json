@@ -1,0 +1,8 @@
+{
+  "name": "breezeware-cucumber",
+  "description": "Cucumber BDD feature file plugin — Gherkin writing, declarative steps, tagging strategy, scenario independence with feature file review.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Breezeware"
+  }
+}

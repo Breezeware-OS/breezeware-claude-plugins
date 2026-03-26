@@ -1,0 +1,8 @@
+{
+  "name": "breezeware-spring-boot",
+  "description": "Spring Boot backend development plugin — Java 21, Maven, JPA, Flyway, Lombok with Checkstyle enforcement and code review.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Breezeware"
+  }
+}

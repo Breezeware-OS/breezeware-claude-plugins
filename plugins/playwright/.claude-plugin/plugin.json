@@ -1,0 +1,8 @@
+{
+  "name": "breezeware-playwright",
+  "description": "Java Playwright automation testing plugin — JUnit 5, Cucumber BDD, Page Object Model, Allure reporting with locator strategy enforcement and test code review.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Breezeware"
+  }
+}

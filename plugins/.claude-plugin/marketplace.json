@@ -1,0 +1,45 @@
+{
+  "name": "breezeware-claude-plugins",
+  "owner": {
+    "name": "Breezeware",
+    "email": "devtools@breezeware.com"
+  },
+  "plugins": [
+    {
+      "name": "breezeware-common",
+      "source": "../common",
+      "description": "Core skills — general code review, git workflow, security scanning. Always active.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "breezeware-spring-boot",
+      "source": "../spring-boot",
+      "description": "Spring Boot backend — Java 21, Maven, JPA, Flyway with Checkstyle hooks.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "breezeware-react",
+      "source": "../react",
+      "description": "React.js frontend — Vite, shadcn/ui, Redux, Tailwind with lint hooks.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "breezeware-react-native",
+      "source": "../react-native",
+      "description": "React Native mobile — bare CLI, JavaScript, React Navigation with lint hooks.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "breezeware-playwright",
+      "source": "../playwright",
+      "description": "Playwright automation — JUnit 5, Cucumber BDD, Page Objects with test lint hooks.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "breezeware-cucumber",
+      "source": "../cucumber",
+      "description": "Cucumber BDD — Gherkin feature files, tagging strategy with feature lint hooks.",
+      "version": "1.0.0"
+    }
+  ]
+}

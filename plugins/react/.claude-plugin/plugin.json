@@ -1,0 +1,8 @@
+{
+  "name": "breezeware-react",
+  "description": "React.js frontend development plugin — Vite, Axios, shadcn/ui, Redux Toolkit, Tailwind CSS with accessibility checks and code review.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Breezeware"
+  }
+}
